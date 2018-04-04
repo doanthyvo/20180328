@@ -1,17 +1,16 @@
-
-header {
-    background-color: rgb(100, 100, 100);
+body {
+    background-color: rgb(243, 243, 243);
 }
 
 h1 {
     color: white;
     text-decoration: underline;
+    background-color: rgb(150, 150, 150);
     text-align: center;
     font-family: Helvetica;
-    font-style: italic;
     font-size: 25px;
     font-weight: bold;
-    height: 30px
+    height: 30px;
 }
 
 h2 {
@@ -19,7 +18,7 @@ h2 {
     text-align: left;
     font-family: Helvetica;
     font-style: italic;
-    font-size: 17px
+    font-size: 17px;
 }
 
 p, li {
@@ -33,16 +32,17 @@ img {
     border:5px solid rgb(255, 172, 65);
     padding: 5px;
     float: left;
-    margin: 20px
+    margin: 10px;
     
  }
 
- #main-bio {
-     width: 70%;
-     float: left
+ .bio-id-col {
+     width: 60%;
+     float: left;
+     margin-right: 10px;
  }
 
- #contact {
-    width: 30%;
-    float: right
+ .contact-id-col {
+    width: 35%;
+    float: left;
  }
